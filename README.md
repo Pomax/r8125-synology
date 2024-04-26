@@ -34,7 +34,7 @@ $ git clone https://github.com/SynologyOpenSource/pkgscripts-ng
 ```bash
 $ cd /toolkit/pkgscripts-ng
 $ git checkout DSM7.2
-$ ./EnvDeploy -v 7.2 -p avoton # replace 'avoton' with your platform
+$ ./EnvDeploy -v 7.2 -p avoton # replace 'avoton' with your platform, listed as "package arch" for your Synology model on https://kb.synology.com/en-uk/DSM/tutorial/What_kind_of_CPU_does_my_NAS_have
 $ cp /etc/ssl/certs/ca-certificates.crt /toolkit/build_env/ds.avoton-7.2/etc/ssl/certs/ca-certificates.crt # replace 'ds.avoton-7.2' with your platform and version
 ```
 
